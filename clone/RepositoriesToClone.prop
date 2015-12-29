@@ -1,0 +1,41 @@
+#orion Eclipse workspaces repositories
+orion_eclipse_workspaces_dir=/c/workspaces
+orion_eclipse_workspace_repository_1=https://github.com/orionware-eclipse-workspaces/default-eclipse-workspace.git
+orion_eclipse_workspace_repository_dir_1=default-eclipse-workspace
+orion_eclipse_workspace_repository_2=https://github.com/orionware-eclipse-workspaces/orion-dev-eclipse-workspace.git
+orion_eclipse_workspace_repository_dir_2=orion-dev-eclipse-workspace
+orion_eclipse_workspace_repository_3=https://github.com/orionware-eclipse-workspaces/orion-libraries-eclipse-workspace.git
+orion_eclipse_workspace_repository_dir_3=orion-libraries-eclipse-workspace
+orion_eclipse_workspace_repository_4=https://github.com/orionware-eclipse-workspaces/orion-platform-eclipse-workspace.git
+orion_eclipse_workspace_repository_dir_4=orion-platform-eclipse-workspace
+
+
+#orion-dev repositories
+orion_dev_dir=/c/workspaces/orion-dev-eclipse-workspace/orion-dev
+orion_dev_repository_1=https://github.com/orionware-dev/java-collections-helper.git
+orion_dev_repository_dir_1=java-collections-helper
+
+
+#orion-libraries repositories
+orion_libraries_dir=/c/workspaces/orion-libraries-eclipse-workspace/orion-libraries
+orion_libraries_repository_1=https://github.com/orionware-libraries/libraries-builder.git
+orion_libraries_repository_dir_1=libraries-builder
+orion_libraries_repository_2=https://github.com/orionware-libraries/engine.git
+orion_libraries_repository_dir_2=engine
+orion_libraries_repository_3=https://github.com/orionware-libraries/ant-tasks.git
+orion_libraries_repository_dir_3=ant-tasks
+orion_libraries_repository_4=https://github.com/orionware-libraries/template-project.git
+orion_libraries_repository_dir_4=template-project
+orion_libraries_repository_5=https://github.com/orionware-libraries/libraries.git
+orion_libraries_repository_dir_5=libraries
+orion_libraries_repository_6=https://github.com/orionware-libraries/delivery-engine.git
+orion_libraries_repository_dir_6=delivery-engine
+orion_libraries_repository_7=https://github.com/orionware-libraries/documentation.git
+orion_libraries_repository_dir_7=documentation
+orion_libraries_repository_8=https://github.com/orionware-dev/design-patterns.git
+orion_libraries_repository_dir_8=design-patterns
+
+
+number_of_orion_eclipse_workspaces_repositories=4
+number_of_orion_dev_repositories=1
+number_of_orion_libraries_repositories=8
