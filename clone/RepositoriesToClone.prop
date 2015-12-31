@@ -46,8 +46,10 @@ orion_libraries_repository_8=https://github.com/orionware-libraries/development-
 orion_libraries_repository_dir_8=/c/workspaces/orion/libraries/projects/development-tasks
 orion_libraries_repository_9=https://github.com/orionware-libraries/configuration.git
 orion_libraries_repository_dir_9=/c/workspaces/orion/libraries/projects/configuration
+orion_libraries_repository_10=https://github.com/orionware-libraries/data-structures.git
+orion_libraries_repository_dir_10=/c/workspaces/orion/libraries/projects/data-structures
 
 
 number_of_orion_eclipse_workspaces_repositories=5
 number_of_orion_dev_repositories=1
-number_of_orion_libraries_repositories=9
+number_of_orion_libraries_repositories=10
