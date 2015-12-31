@@ -30,8 +30,8 @@ orion_dev_repository_dir_1=/c/workspaces/orion/dev/projects/java-collections-hel
 #orion-libraries repositories
 orion_libraries_repository_1=https://github.com/orionware-libraries/libraries-builder.git
 orion_libraries_repository_dir_1=/c/workspaces/orion/libraries/projects/libraries-builder
-orion_libraries_repository_2=https://github.com/orionware-libraries/engine.git
-orion_libraries_repository_dir_2=/c/workspaces/orion/libraries/projects/engine
+orion_libraries_repository_2=https://github.com/orionware-libraries/core.git
+orion_libraries_repository_dir_2=/c/workspaces/orion/libraries/projects/core
 orion_libraries_repository_3=https://github.com/orionware-libraries/ant-tasks.git
 orion_libraries_repository_dir_3=/c/workspaces/orion/libraries/projects/ant-tasks
 orion_libraries_repository_4=https://github.com/orionware-libraries/template-project.git
