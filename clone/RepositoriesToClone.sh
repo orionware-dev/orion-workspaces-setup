@@ -1,6 +1,9 @@
 #!/bin/bash
 CurrentDirectory=`pwd`
-. $CurrentDirectory/RepositoriesToClone.prop
+. $CurrentDirectory/DirectoriesToSetup.prop
+. $CurrentDirectory/EclipseWorkspaces.prop
+. $CurrentDirectory/DevRepositories.prop
+. $CurrentDirectory/LibrariesRepositories.prop
 . $CurrentDirectory/GitHubCredentials.prop
 OrionDir=$orion_dir
 OrionDevDir=$orion_dev_dir

@@ -1,0 +1,7 @@
+orion_dir=/c/workspaces/orion
+orion_dev_dir=/c/workspaces/orion/dev
+orion_libraries_dir=/c/workspaces/orion/libraries
+orion_platform_dir=/c/workspaces/orion/platform
+orion_dev_projects_dir=/c/workspaces/orion/dev/projects
+orion_libraries_projects_dir=/c/workspaces/orion/libraries/projects
+orion_platform_projects_dir=/c/workspaces/orion/platform/projects

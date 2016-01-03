@@ -1,0 +1,5 @@
+number_of_orion_dev_repositories=2
+orion_dev_repository_1=https://github.com/orionware-dev/java-collections-helper.git
+orion_dev_repository_dir_1=/c/workspaces/orion/dev/projects/java-collections-helper
+orion_dev_repository_2=https://github.com/orionware-dev/development-tools.git
+orion_dev_repository_dir_2=/c/workspaces/orion/dev/projects/development-tools

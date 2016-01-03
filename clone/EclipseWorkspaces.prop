@@ -1,0 +1,12 @@
+number_of_orion_eclipse_workspaces_repositories=5
+orion_eclipse_workspace_repository_1=https://github.com/orionware-eclipse-workspaces/default-eclipse-workspace.git
+orion_eclipse_workspace_repository_dir_1=/c/workspaces/orion/default-eclipse-workspace
+orion_eclipse_workspace_repository_2=https://github.com/orionware-eclipse-workspaces/orion-dev-eclipse-workspace.git
+orion_eclipse_workspace_repository_dir_2=/c/workspaces/orion/dev/orion-dev-eclipse-workspace
+orion_eclipse_workspace_repository_3=https://github.com/orionware-eclipse-workspaces/orion-libraries-eclipse-workspace.git
+orion_eclipse_workspace_repository_dir_3=/c/workspaces/orion/libraries/orion-libraries-eclipse-workspace
+orion_eclipse_workspace_repository_4=https://github.com/orionware-eclipse-workspaces/orion-platform-eclipse-workspace.git
+orion_eclipse_workspace_repository_dir_4=/c/workspaces/orion/platform/orion-platform-eclipse-workspace
+#3rd-party and Orionware libraries
+orion_eclipse_workspace_repository_5=https://github.com/orionware-eclipse-workspaces/all-libraries.git
+orion_eclipse_workspace_repository_dir_5=/c/workspaces/orion/all-libraries
