@@ -25,6 +25,8 @@ orion_eclipse_workspace_repository_dir_5=/c/workspaces/orion/all-libraries
 #orion-dev repositories
 orion_dev_repository_1=https://github.com/orionware-dev/java-collections-helper.git
 orion_dev_repository_dir_1=/c/workspaces/orion/dev/projects/java-collections-helper
+orion_dev_repository_2=https://github.com/orionware-dev/development-tools.git
+orion_dev_repository_dir_2=/c/workspaces/orion/dev/projects/development-tools
 
 
 #orion-libraries repositories
@@ -53,5 +55,5 @@ orion_libraries_repository_dir_11=/c/workspaces/orion/libraries/projects/code-to
 
 
 number_of_orion_eclipse_workspaces_repositories=5
-number_of_orion_dev_repositories=1
+number_of_orion_dev_repositories=2
 number_of_orion_libraries_repositories=11
