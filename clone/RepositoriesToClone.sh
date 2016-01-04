@@ -1,34 +1,15 @@
 #!/bin/bash
 CurrentDirectory=`pwd`
 . $CurrentDirectory/DirectoriesToSetup.prop
-. $CurrentDirectory/EclipseWorkspaces.prop
 . $CurrentDirectory/DevRepositories.prop
-. $CurrentDirectory/LibrariesRepositories.prop
+. $CurrentDirectory/PlatformRepositories.prop
 . $CurrentDirectory/GitHubCredentials.prop
 OrionDir=$orion_dir
 OrionDevDir=$orion_dev_dir
-OrionLibrariesDir=$orion_libraries_dir
 OrionPlatformDir=$orion_platform_dir
-OrionDevProjectsDir=$orion_dev_projects_dir
-OrionLibrariesProjectsDir=$orion_libraries_projects_dir
-OrionPlatformProjectsDir=$orion_platform_projects_dir
 GitHub=github.com
 GitHubUsername=$github_username:$github_password@$GitHub
 mkdir -p $OrionDir
-mkdir -p $OrionDevProjectsDir
-mkdir -p $OrionLibrariesProjectsDir
-mkdir -p $OrionPlatformProjectsDir
-
-
-function cloneOrionEclipseWorkspaceRepository()
-{
-    OrionEclipseWorkspaceRepository=orion_eclipse_workspace_repository_$1
-    OrionEclipseWorkspaceRepositoryTemp=${!OrionEclipseWorkspaceRepository}
-    OrionEclipseWorkspaceRepositoryWithGitHubCredentials=${OrionEclipseWorkspaceRepositoryTemp/$GitHub/$GitHubUsername}
-    OrionEclipseWorkspaceRepositoryDir=orion_eclipse_workspace_repository_dir_$1
-    OrionEclipseWorkspaceRepositoryDirToCloneIn=${!OrionEclipseWorkspaceRepositoryDir}
-    git clone $OrionEclipseWorkspaceRepositoryWithGitHubCredentials $OrionEclipseWorkspaceRepositoryDirToCloneIn
-}
 
 
 function cloneOrionDevRepository()
@@ -42,7 +23,7 @@ function cloneOrionDevRepository()
 }
 
 
-function cloneOrionLibrariesRepository()
+function cloneOrionPlatformRepository()
 {
     OrionLibrariesRepository=orion_libraries_repository_$1
     OrionLibrariesRepositoryTemp=${!OrionLibrariesRepository}
@@ -53,18 +34,12 @@ function cloneOrionLibrariesRepository()
 }
 
 
-for i in $(seq 1 $number_of_orion_eclipse_workspaces_repositories)
+for i in $(seq 1 $number_of_orion_dev_repositories)
 do
-    (cloneOrionEclipseWorkspaceRepository $i &)
+    (cloneOrionDevRepository $i &)
 done
 
-
-for j in $(seq 1 $number_of_orion_dev_repositories)
+for j in $(seq 1 $number_of_orion_libraries_repositories)
 do
-    (cloneOrionDevRepository $j &)
-done
-
-for k in $(seq 1 $number_of_orion_libraries_repositories)
-do
-    (cloneOrionLibrariesRepository $k &)
+    (cloneOrionPlatformRepository $j &)
 done
