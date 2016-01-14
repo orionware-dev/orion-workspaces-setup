@@ -32,14 +32,11 @@ function cloneOrionPlatformRepository()
     OrionLibrariesRepositoryDirToCloneIn=${!OrionLibrariesRepositoryDir}
     IsOrionLibrariesRepositoryABranch=orion_libraries_repository_is_branch_$1
     
-    if($IsOrionLibrariesRepositoryABranch == "true")
-    {
-        git clone -b ongoing git@github.com:user/myproject.git
-    }
+    if[$IsOrionLibrariesRepositoryABranch = "true"]; then
+       git clone -b ongoing $OrionLibrariesRepositoryWithGitHubCredentials $OrionLibrariesRepositoryDirToCloneIn
     else
-    {
-        git clone $OrionLibrariesRepositoryWithGitHubCredentials $OrionLibrariesRepositoryDirToCloneIn
-    }
+       git clone $OrionLibrariesRepositoryWithGitHubCredentials $OrionLibrariesRepositoryDirToCloneIn
+    fi
 }
 
 
