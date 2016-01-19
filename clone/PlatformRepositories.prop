@@ -1,6 +1,2 @@
 orion_platform_repository_1=https://github.com/orionware-platform/orionware-libraries.git
 orion_platform_repository_dir_1=/c/workspaces/orion/platform/orionware-libraries
-orion_platform_repository_is_branch_1=false
-orion_platform_repository_2=https://github.com/orionware-platform/orionware-libraries.git
-orion_platform_repository_dir_2=/c/workspaces/orion/platform/orionware-libraries-ongoing
-orion_platform_repository_is_branch_2=true
